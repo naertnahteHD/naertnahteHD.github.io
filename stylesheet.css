@@ -1,0 +1,109 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 640px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    letter-spacing: -.5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#nav-cell {
+    background-color: black;
+    width: 128px;
+    padding: 0 0 0 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+#nav-link {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#cat-head {
+    background-color: rgb(255,140,0);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#cat-cat {
+    background-color: rgb(175,175,175);
+    text-align: center;
+    font-size: 14px;
+}
+
+#cat-cont-odd {
+    background-color: white;
+    font-size: 12px;
+}
+
+#cat-cont-even {
+    background-color: rgb(235,235,235);
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+
+ul, li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content {
+    padding: 10px 25px 25px 25px;
+    background-color: lightgrey;
+}
+
+#footer {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#protest {
+    font-weight: bold;
+    color:white;
+    background-color: green;
+}
+
+#case {
+    font-weight: bold;
+    color:white;
+    background-color: red;
+}
+
+#council {
+    font-weight: bold;
+    color:white;
+    background-color: blue;
+}
+
+#description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+}
