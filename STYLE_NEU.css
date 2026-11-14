@@ -1,0 +1,135 @@
+html {
+    width: 680px;
+    margin: 0;
+}
+
+body {
+    background-color: lightgrey;
+    margin: 10px;
+    width: 660px;
+}
+
+p {
+    margin: 5px 0 0 0;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+img {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+body, button, p, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+table, tr, td {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    border: none;
+}
+
+table, video, img {
+    width: 100%;
+}
+
+.tab-container {
+    width: 640px;
+    background-color: white;
+    padding: 2px 10px 2px 10px;
+    overflow: hidden;
+}
+
+.tab-sidebar {
+    float: left;
+    width: 160px;
+}
+
+.tab-button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 3px;
+    padding: 2px 25px 2px 2px;
+    text-align: left;
+    color: rgb(0,0,125);
+
+    background: rgb(255,255,225);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 2px solid #716F64;
+    border-bottom: 2px solid #716F64;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.tab-button:hover {
+    background-color: rgb(255,225,100);
+}
+
+.tab-button.active {
+    background-image: linear-gradient(to right, rgb(0,0,125) 80%, white 100%);
+    color: white;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.tab-body {
+    float: left;
+    width: 480px;
+    min-height: 200px;
+    background-color: white;
+    padding: 0 5px 0 10px;
+    box-sizing: border-box;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0,0,125);
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
+.subH3 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.beschreibung {
+    margin: 0;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.porträt {
+    height: 250px;
+    width: auto;
+}
+
+.partei {
+    width: 35px;
+}
