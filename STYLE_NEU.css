@@ -99,7 +99,7 @@ table, video, img {
     display: none;
 }
 
-.tab-content h3 {
+h3 {
     font-size: 14px;
     font-weight: bold;
     color: rgb(0,0,125);
