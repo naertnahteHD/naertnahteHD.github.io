@@ -13,6 +13,15 @@ p {
     margin: 5px 0 0 0;
 }
 
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0,0,125);
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
 h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
@@ -39,6 +48,10 @@ table, tr, td {
 
 table, video, img {
     width: 100%;
+}
+
+hr {
+    border: .5px solid black;
 }
 
 .tab-container {
@@ -95,19 +108,6 @@ table, video, img {
     box-sizing: border-box;
 }
 
-.tab-content{
-    display: none;
-}
-
-h3 {
-    font-size: 14px;
-    font-weight: bold;
-    color: rgb(0,0,125);
-    margin: 0;
-    border-bottom: 1px solid black;
-    padding: 0;
-}
-
 .subH3 {
     font-weight: normal;
     margin: 0;
@@ -128,6 +128,14 @@ h3 {
 .porträt {
     height: 250px;
     width: auto;
+}
+
+.bild {
+    width: 230px;
+}
+
+.bilder {
+    width: 145px;
 }
 
 .partei {
